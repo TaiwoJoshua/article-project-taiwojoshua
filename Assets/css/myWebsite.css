@@ -78,6 +78,7 @@ body{
     color: grey;
     font-size: 20px;
 }
+
 .dev-details{
     font-weight: 400;
     color: grey;
@@ -89,6 +90,10 @@ body{
     background-color: grey;
     padding: 5px;
     box-sizing: border-box;
+}
+.dev-details>i{
+    color: grey;
+    font-size: 20px;
 }
 @media screen and (max-width:700px){
     .row{
