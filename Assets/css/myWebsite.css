@@ -20,7 +20,7 @@ body{
 
 .navbar{
     display: flex;
-    background: #333;
+    background: #C7B198;
     gap: 1rem;
     color: white;
     justify-content: center;
@@ -39,7 +39,7 @@ body{
 }
 .aside{
     flex: 30%;
-    background: #f1f1f1;
+    background: #F0ECE3;
     padding: 20px;
 }
 .main{
@@ -61,8 +61,7 @@ body{
 }
 .footer{
     padding: 20px;
-    background: #aaa;
-    /* display: flex; */
+    background: #C7B198;
     align-items: center;
     justify-content: center;
     color: white;
@@ -76,24 +75,25 @@ body{
     text-decoration: none;
 }
 .social-Icon>a>i{
-    color: grey;
+    color: #A68DAD;
     font-size: 20px;
 }
 
 .dev-details{
     font-weight: 400;
-    color: grey;
+    color: #A68DAD;
 }
 .dev-details>a{
     text-decoration: none;
     border: hidden;
     border-radius: 5px;
-    background-color: grey;
+    background-color: #A68DAD;
+    color: #C7B198;
     padding: 5px;
     box-sizing: border-box;
 }
 .dev-details>i{
-    color: grey;
+    color: #A68DAD;
     font-size: 20px;
 }
 @media screen and (max-width:700px){
