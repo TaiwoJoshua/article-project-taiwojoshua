@@ -36,7 +36,7 @@
             <div class="fakeImg" style="background: url(./Assets/img/TeeJayStudios.JPG) no-repeat center; background-size: contain;">
                 
             </div>
-            <p>I am fully familiar with the use of html, css and javascript. I have a year's experience in web development.</p>
+            <p>I am fully familiar with the use of html, css and javascript. I have <span id="year">a</span> year's experience in web development.</p>
             <div class="fakeImg" style="background: url(./Assets/img/Guess.JPG) no-repeat center; background-size: contain;">
                 
             </div>
@@ -78,5 +78,11 @@
             Created with <i class="fas fa-heart"></i>. By <a href="mailto:joshuataiwo07@gmail.com">Taiwo Joshua</a>
         </h3>
     </div>
+    <script>
+        d = new Date();
+        h = d.getFullYear();
+        n = h - 2020;
+        document.getElementById('year').innerHTML = n;
+    </script>
 </body>
 </html>
